@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  web:
+    image: datacite/http-redirect
+    ports:
+      - "8020:80"
