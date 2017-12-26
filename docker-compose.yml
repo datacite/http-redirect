@@ -4,4 +4,4 @@ services:
   web:
     image: datacite/http-redirect
     ports:
-      - "8020:80"
+      - "8080:80"
